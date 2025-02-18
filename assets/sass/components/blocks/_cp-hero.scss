@@ -1,4 +1,5 @@
 .container--section-hero {
+  padding-block: 40px;
 
   .container--wrapper {
     position: relative;
@@ -92,7 +93,7 @@
       padding: 10px 30px;
       border-radius: 40px 0 0 0;
 
-      .text--hero{
+      .text--hero {
         font-family: $font__secondary;
         font-size: 20px;
         color: #333333;
