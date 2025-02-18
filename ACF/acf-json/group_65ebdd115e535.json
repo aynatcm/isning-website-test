@@ -196,6 +196,186 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_67b4306dc1f4c": {
+                    "key": "layout_67b4306dc1f4c",
+                    "name": "cp-services",
+                    "label": "cp-services",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_67b4306dc1f4f",
+                            "label": "CONTENT",
+                            "name": "",
+                            "aria-label": "",
+                            "type": "tab",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "placement": "top",
+                            "endpoint": 1,
+                            "selected": 0
+                        },
+                        {
+                            "key": "field_67b4306dc1f50",
+                            "label": "cp services",
+                            "name": "cp_services",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_67b4300ca3b08"
+                            ],
+                            "display": "seamless",
+                            "layout": "table",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        },
+                        {
+                            "key": "field_67b4306dc1f51",
+                            "label": "<span class=\"icon-acf icon-settings icon-small\"><\/span>",
+                            "name": "",
+                            "aria-label": "",
+                            "type": "tab",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "placement": "top",
+                            "endpoint": 0,
+                            "selected": 0
+                        },
+                        {
+                            "key": "field_67b4306dc1f52",
+                            "label": "Settings",
+                            "name": "settings",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_65e7a012741a2"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_67b43cfb3588c": {
+                    "key": "layout_67b43cfb3588c",
+                    "name": "cp-gallery",
+                    "label": "cp-gallery",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_67b43cfb3588f",
+                            "label": "CONTENT",
+                            "name": "",
+                            "aria-label": "",
+                            "type": "tab",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "placement": "top",
+                            "endpoint": 1,
+                            "selected": 0
+                        },
+                        {
+                            "key": "field_67b43cfb35890",
+                            "label": "cp gallery",
+                            "name": "cp_gallery",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_67b43cbaaa7e8"
+                            ],
+                            "display": "seamless",
+                            "layout": "table",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        },
+                        {
+                            "key": "field_67b43cfb35891",
+                            "label": "<span class=\"icon-acf icon-settings icon-small\"><\/span>",
+                            "name": "",
+                            "aria-label": "",
+                            "type": "tab",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "placement": "top",
+                            "endpoint": 0,
+                            "selected": 0
+                        },
+                        {
+                            "key": "field_67b43cfb35892",
+                            "label": "Settings",
+                            "name": "settings",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_65e7a012741a2"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -223,5 +403,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1739858021
+    "modified": 1739865362
 }

@@ -1,0 +1,104 @@
+.container--text-media {
+
+  .container--wrapper {
+    padding-block: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+
+    .container--images-section {
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 40%;
+
+      .image--section {
+        max-width: unset;
+        border-radius: 30px;
+        max-height: 255px;
+        object-fit: cover;
+        width: 100%;
+      }
+
+    }
+
+    .container--info-section {
+      width: 55%;
+
+      .title--text-media {
+        font-family: $font__main;
+        font-size: 53px;
+        font-weight: 500;
+        color: #333333;
+        position: relative;
+        padding-block-end: 10px;
+
+        &::after {
+          content: "";
+          display: block;
+          width: 260px;
+          height: 2px;
+          background: linear-gradient(to right, transparent, #a57c3c 50%, transparent);
+          position: absolute;
+          bottom: 0px;
+          left: 27%;
+        }
+      }
+
+      .description--text-media {
+        font-family: $font__secondary;
+        font-size: 14px;
+        font-weight: 400;
+        color: black;
+        text-align: center;
+        padding-block: 20px;
+
+      }
+
+
+      .container--description-cta {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        padding-block-end: 20px;
+
+        .description--cta {
+          background-color: #f9f9fb;
+          padding: 20px 30px;
+          border-radius: 30px;
+
+          * {
+            font-family: $font__secondary;
+            font-size: 16px;
+            color: black;
+            text-align: left;
+            font-weight: 400;
+          }
+        }
+      }
+
+      .container--cta-text-media {
+        .cta--text-media {
+          background-color: var(--c-gold);
+          font-size: 16px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-weight: 400;
+          font-family: $font__secondary;
+          padding: 10px;
+          width: 140px;
+          height: 40px;
+          border-radius: 20px;
+        }
+      }
+
+    }
+
+  }
+
+}
