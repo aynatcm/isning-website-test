@@ -2,13 +2,15 @@
   width: 100%;
   height: auto;
   max-height: 200px;
+  height: 180px;
   background-color: var(--c-body-bg);
-  padding: 20px 40px;
+  padding: 20px 50px;
   position: relative;
 
   &__wrapper {
     max-width: 1440px;
     display: flex;
+    height: 100%;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
@@ -19,17 +21,23 @@
       display: flex;
       align-items: center;
 
-      .logo__img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+      .container--logo-header {
+        display: block;
+
+        .logo__img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        span {
+          font-size: 20px;
+          line-height: normal;
+          font-weight: 700;
+        }
       }
 
-      span {
-        font-size: 20px;
-        line-height: normal;
-        font-weight: 700;
-      }
+
     }
 
     .navigation {
@@ -55,6 +63,7 @@
         margin: 0;
         display: flex;
         column-gap: 25px;
+        align-items: center;
 
         @include m_query($bp-md) {
           width: 100%;
@@ -99,13 +108,30 @@
           position: relative;
 
           a {
-            font-size: var(--fs-base);
-            font-weight: 400;
-            color: var(--c-primary);
+            font-family: $font__secondary;
+            font-size: 18px;
+            font-weight: 500;
+            color: #3d3d3d;
             transition: var(--g-trans);
+            display: block;
+            text-align: center;
 
             &:hover {
               color: var(--c-second);
+            }
+          }
+
+          &.always-active {
+            background-color: var(--c-gold);
+            border-radius: 25px;
+            padding: 10px 20px;
+            transition: var(--g-trans);
+            a {
+              color: white;
+            }
+
+            &:hover{
+              background-color: #916c1c;
             }
           }
 
@@ -137,16 +163,6 @@
               align-items: center;
               margin-block: 10px;
               row-gap: 20px;
-            }
-
-            li {
-
-              a {
-                font-family: $font__main;
-                color: #4F4F4F;
-                display: block;
-                text-align: center;
-              }
             }
           }
         }

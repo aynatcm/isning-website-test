@@ -58,59 +58,16 @@
             },
             "choices": {
                 "c-none": "none",
-                "c-primary": "Primary",
-                "c-secondary": "Secondary",
-                "c-primary-dark": "Primary Dark",
-                "c-primary-light": "Primary Light",
                 "c-gray-light": "Gray Light"
             },
             "default_value": false,
             "return_format": "value",
             "multiple": 0,
             "allow_null": 0,
+            "allow_in_bindings": 1,
             "ui": 0,
             "ajax": 0,
             "placeholder": ""
-        },
-        {
-            "key": "field_65e7a06225f4d",
-            "label": "Hidden?",
-            "name": "cp_hidden",
-            "aria-label": "",
-            "type": "true_false",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "message": "",
-            "default_value": 0,
-            "ui": 0,
-            "ui_on_text": "",
-            "ui_off_text": ""
-        },
-        {
-            "key": "field_65e7a08625f4e",
-            "label": "Section Name",
-            "name": "section_name",
-            "aria-label": "",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
         }
     ],
     "location": [
@@ -131,5 +88,5 @@
     "active": false,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1709678881
+    "modified": 1739854838
 }
