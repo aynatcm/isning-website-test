@@ -119,7 +119,7 @@
                                       fill="#ece9e7"/>
                             </svg>
                         </span>
-                        123 Main Street, Suite 456,
+                        123 Main Street, Suite 456,<br>
                         Your City, ST 78901
                     </a>
                 </li>

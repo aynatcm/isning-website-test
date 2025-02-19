@@ -15,6 +15,10 @@
       flex-direction: column;
       width: 40%;
 
+      @media (max-width: 1024px) {
+        width: 100%;
+      }
+
       .image--section {
         max-width: unset;
         border-radius: 30px;
@@ -28,6 +32,10 @@
     .container--info-section {
       width: 55%;
 
+      @media (max-width: 1024px) {
+        width: 100%;
+      }
+
       .title--text-media {
         font-family: $font__main;
         font-size: 53px;
@@ -35,6 +43,10 @@
         color: #333333;
         position: relative;
         padding-block-end: 10px;
+
+        @media (max-width: 1024px) {
+          font-size: 38px;
+        }
 
         &::after {
           content: "";
@@ -45,6 +57,11 @@
           position: absolute;
           bottom: 0px;
           left: 27%;
+
+          @media (max-width: 1024px) {
+            left: unset;
+            margin: 0 auto;
+          }
         }
       }
 
@@ -55,6 +72,10 @@
         color: black;
         text-align: center;
         padding-block: 20px;
+
+        @media (max-width: 1024px) {
+         font-size: 18px;
+        }
 
       }
 
@@ -76,6 +97,10 @@
             color: black;
             text-align: left;
             font-weight: 400;
+
+            @media (max-width: 1024px) {
+              font-size: 18px;
+            }
           }
         }
       }
@@ -94,6 +119,10 @@
           width: 140px;
           height: 40px;
           border-radius: 20px;
+
+          @media (max-width: 1024px) {
+            width: 100%;
+          }
         }
       }
 

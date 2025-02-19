@@ -41,8 +41,16 @@
       gap: 35px;
       padding-block-end: 40px;
 
+      @media (max-width: 1024px) {
+        flex-direction: column;
+      }
+
       .blog--item {
         width: 30%;
+
+        @media (max-width: 1024px) {
+          width: 100%;
+        }
 
         .image--blog-item {
           z-index: 1;

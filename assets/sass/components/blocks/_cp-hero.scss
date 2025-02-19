@@ -7,6 +7,10 @@
     overflow: hidden;
     min-height: 600px;
 
+    @media (max-width: 1024px) {
+      padding-inline: 0;
+    }
+
     .container--hero-image {
       position: absolute;
       width: 100%;
@@ -35,6 +39,10 @@
         padding-block-end: 10px;
         font-weight: 500;
         color: #333333;
+
+        @media (max-width: 1024px) {
+          font-size: 35px;
+        }
       }
 
       .subtitle--hero {
@@ -65,6 +73,9 @@
           font-family: $font__secondary;
           font-size: 16px;
 
+          @media (max-width: 1024px) {
+            padding: 10px 15px;
+          }
         }
 
         .second--cta {
@@ -78,6 +89,9 @@
           color: var(--c-gold);
           font-family: $font__secondary;
           font-size: 16px;
+          @media (max-width: 1024px) {
+            padding: 10px 15px;
+          }
         }
 
       }
