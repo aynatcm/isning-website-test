@@ -1,0 +1,212 @@
+.testimonials {
+  padding-block: 60px;
+
+  @include m_query($bp-md) {
+    padding-block: 40px;
+  }
+
+  .container--wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+
+    .testimonials--wrapper {
+      @include m_query($bp-md) {
+        gap: 20px;
+      }
+
+      &-header {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        &-title {
+          font-family: $font__main;
+          font-size: 48px;
+          font-weight: 500;
+          color: #000;
+          padding-bottom: 5px;
+          position: relative;
+
+          @include m_query($bp-lg) {
+            font-size: 36px;
+          }
+
+          @include m_query($bp-md) {
+            font-size: 32px;
+          }
+
+          @include m_query($bp-sm) {
+            font-size: 28px;
+          }
+
+          &::after {
+            content: '';
+            width: 260px;
+            height: 2px;
+            background: linear-gradient(to right, transparent, var(--c-gold) 50%, transparent);
+            margin: 0 auto;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+        }
+
+        &-description {
+          max-width: 700px;
+          margin: 0 auto;
+          text-align: center;
+          font-size: 16px;
+          font-weight: 400;
+          font-family: $font__secondary;
+        }
+      }
+
+      &-testimonial {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 48px;
+        padding-block-start: 20px;
+
+        @include m_query($bp-md) {
+          grid-template-columns: 1fr;
+        }
+
+
+        &-item {
+          display: flex;
+          align-items: center;
+          position: relative;
+
+          @include m_query($bp-xl) {
+            flex-direction: column;
+          }
+
+          &-info {
+            max-width: 400px;
+            width: 100%;
+            height: 100%;
+            border-radius: 30px;
+            background-color: #f0f0f0;
+            padding: 20px 20px 50px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            @include m_query($bp-xl) {
+              max-width: 100%;
+            }
+
+            @include m_query($bp-md) {
+              height: fit-content;
+            }
+
+            &-name {
+              max-width: 60%;
+              width: 100%;
+              font-size: 24px;
+              font-weight: 600;
+              color: #000;
+
+              @include m_query($bp-xl) {
+                max-width: 100%;
+                text-align: center;
+              }
+
+              @include m_query($bp-md) {
+                font-size: 20px;
+              }
+
+              @include m_query($bp-sm) {
+                font-size: 18px;
+              }
+            }
+
+            &-description {
+              font-size: 16px;
+              max-width: 60%;
+              color: #000;
+              font-family: $font__secondary;
+
+              @include m_query($bp-xl) {
+                max-width: 100%;
+                text-align: center;
+              }
+            }
+
+            &-star {
+              margin-top: 30px;
+
+              @include m_query($bp-xl) {
+                margin-top: 10px;
+              }
+
+              .star-rating {
+                display: flex;
+                gap: 5px;
+
+                @include m_query($bp-xl) {
+                  justify-content: center;
+                }
+              }
+            }
+          }
+
+          &-image {
+            position: absolute;
+            max-width: 350px;
+            width: 100%;
+            height: 200px;
+            border-radius: 20px;
+            right: 5%;
+            object-fit: cover;
+
+            @include m_query($bp-xxl) {
+              right: 0;
+            }
+
+            @include m_query($bp-xl) {
+              position: relative;
+              right: auto;
+              margin-top: -20px;
+            }
+
+            @include m_query($bp-md) {
+              max-width: 85%;
+              height: 250px;
+            }
+          }
+        }
+
+      }
+
+      &-link {
+        background-color: var(--c-gold);
+        border-radius: 30px;
+        color: #fff;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        padding: 8px 16px;
+        transition: .3s ease-in-out;
+        margin: 40px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 260px;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+    }
+
+
+  }
+}

@@ -466,6 +466,102 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_67b5646fbcd63": {
+                    "key": "layout_67b5646fbcd63",
+                    "name": "cp-contact",
+                    "label": "cp-contact",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_67b56476bcd67",
+                            "label": "cp contact",
+                            "name": "cp_contact",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_67b4d329114ab"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_67b56488bcd68": {
+                    "key": "layout_67b56488bcd68",
+                    "name": "cp-testimonials",
+                    "label": "cp-testimonials",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_67b5648ebcd6b",
+                            "label": "cp testimonials",
+                            "name": "cp_testimonials",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_67b4b91c87207"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_67b56cfd5e34b": {
+                    "key": "layout_67b56cfd5e34b",
+                    "name": "cp-blog",
+                    "label": "cp-blog",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_67b56d025e34e",
+                            "label": "cp blog",
+                            "name": "cp_blog",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_67b56c3b85f1c"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -493,5 +589,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1739866749
+    "modified": 1739943186
 }

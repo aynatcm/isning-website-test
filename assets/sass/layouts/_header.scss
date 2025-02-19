@@ -43,7 +43,7 @@
     .navigation {
       flex: 1;
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
 
       @include m_query($bp-md) {
         padding-block-end: 20px;
